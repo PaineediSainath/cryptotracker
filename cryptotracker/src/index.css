@@ -1,0 +1,34 @@
+code{
+  font-family: source-code-pro,monospace,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header{
+  height: 180px;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+}
+input{
+  margin-top: 50px;
+  padding: 10px;
+  border-radius: 5px;
+  border-color: white;
+  outline: none;
+  width: 300px;
+  font-size: medium;
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(4,370px);
+  grid-auto-rows: 270px;
+  margin: 5px;
+  background-color: white;
+  width: 100%;
+}
+.grid-container > div {
+  background-color: black;
+  margin: 10px;
+  padding-top: 10px;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+}
